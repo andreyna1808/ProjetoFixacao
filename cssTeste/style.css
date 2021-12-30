@@ -1,0 +1,186 @@
+/*  Geral*/
+* {
+    background-color: #29793dad;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  Deixando o comando flexivel do js*/
+.js {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Iniciando interação animada*/
+    /* Colocando fonte e altura aceitável*/
+.conteudo h2 span{
+    font-size: 16px;
+    cursor: pointer;
+}
+.conteudo p {
+    overflow: hidden;
+    height: 28px;
+}
+/*  Expandindo o conteudo -- ver no JS*/
+.mostrar {
+    height: 300px !important; /*  Ajuda no efeito*/
+}
+
+/*  Cria uma animação por js dos blocos*/
+.animation {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-left: 0;
+    cursor: pointer;
+}
+.animacao{
+    transition: 1s;
+    margin-left: 35%;
+}
+.animacaoClick {
+    transition: 1s;
+    margin-left: 0;
+    background-color: orangered;
+}
+/*  Fim*/
+
+
+/*  Deixando flexivel*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.um{
+    width: 100%;
+    background-color: crimson;
+}
+.dois{
+    width: 50%;
+    background-color:cyan;
+
+}
+.tres{
+    width: 50%;
+    background-color: darkblue;
+}
+.quatro{
+    width: 100%;
+    background-color:darkorange;
+}
+
+
+/* Fazendo um formulário*/
+.form {
+    text-align: center;
+    padding: 20px;
+    background-color: #27282d;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form input {
+    padding-left: 10px;
+    font-size: 16px;
+    margin: 10px auto;
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.form textarea {
+    padding-left: 10px;
+    font-size: 16px;
+    max-width: 500px;
+    margin: 10px auto;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.form input {
+    padding-left: 10px;
+    font-size: 16px;
+    margin: 10px auto;
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.form #formSubmit {
+    background-color: rgb(255, 104, 4);
+    color: black;
+    cursor: pointer;
+}
+.form #formSubmit:hover {
+    background-color: rgb(255, 104, 4);
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+}
+.form #formSubmit:active {
+    color: white;
+}
+
+.fofocas {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.slide {
+    margin-top: 80px;
+    margin-bottom: 80px; 
+}
+
+/*Fazendo um slide de fotos*/
+.all {
+    align-items: center;
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 10px;
+}
+
+.mySlides {
+    width: 800px;
+}
+img{
+    width: 500px;
+    height: 400px;
+}
+  
+.botao {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+  
+.botaodireira {
+    left: auto;
+    right: 1px;
+    cursor: pointer;
+}
+.botaoesquerda {
+    left: 1px;
+    right: auto;
+    cursor: pointer;
+} 
+
+.slideshow {
+    /* z-index: -1; */
+    position: relative;
+}
+.botaoesquerda, .botaodireira {
+    width: 50px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: white;
+}
+.filmes {
+    width: 100%;
+}
