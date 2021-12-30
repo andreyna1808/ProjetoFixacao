@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(199, 198, 198);
+}
+header, .container h2 {
+    font-size: 38px;
+    margin: 20px auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 10px 2%;
+    text-align: center;
+
+}
+.container h2 {
+    color: crimson;
+    background-color: rgb(4, 4, 10);
+    font-size: 28px;
+}
+.container {
+    text-align: center;
+}
+
+.pokemonBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.boxPokemon {
+    width: 29%;
+    border-radius: 10px;
+    margin: 20px 2%;
+    background-color:rgb(199, 198, 198);
+}
+
+.boxPokemon img {
+    color: black;
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+input{
+    width: 80%;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .boxPokemon{
+        width: 100%;
+        text-align: center;
+        max-width: 280px;
+    }
+}
+

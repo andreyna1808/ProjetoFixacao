@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(233, 232, 231);
+}
+header {
+    background-color: #415cb6;
+    text-align: center;
+    color: white;
+    padding: 20px 5px;
+}
+.soma, h1, h2 {
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.lista{
+    margin: 20px 5px;
+    padding: 5px 20px;
+}
+.lista input {
+    height: 40px;
+    padding-left: 10px;
+    margin: 5px;
+}
+.lista input[type=submit], button {
+    height: 40px;
+    width: 180px;
+    padding-left: 0;
+    cursor: pointer;
+}
+.lista input[type=submit]:hover, button:hover {
+    background-color: rgb(224, 63, 22);
+    border-radius: 90px;
+}
+.listaJS{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+.lista-produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2px 60px;
+    padding: 0 20px;
+    border: springgreen solid 5px;
+}
+.price-produto {
+    width: 33.5%;
+}
+.nome-produto {
+    width: 33.5%;
+}
+
+h3.price-produto > span{
+    background-color: #415cb6;
+    padding: 10px 10px;
+    border-radius:20px;
+    color:white;
+}
+img {
+    width: 150px;
+    height: 130px;
+}

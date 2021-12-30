@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-align: center;
+}
+h3{
+    color: red;
+    font-size: 42px;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+    margin: 20px;
+}
+.game{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.escolhaJogador img, .escolhaPc img {
+    width: 80%;
+    opacity: 0.3;
+    cursor: pointer;
+    padding: 10px 50px;
+}
+@media screen and (max-width: 780px) {
+    .game{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        padding: 0 20px;
+        justify-content: center;
+    }
+    .escolhaJogador img, .escolhaPc img {
+        width: 40%;
+        opacity: 0.3;
+        cursor: pointer;
+        padding: 10px 50px;
+    }
+}

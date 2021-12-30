@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(214, 211, 206);
+}
+
+header, footer {
+    text-align: center;
+}
+footer{
+
+    bottom: 0;
+}
+
+ul {
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+li {
+    padding: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: orangered;
+}
+a:active {
+    color: white;
+}
